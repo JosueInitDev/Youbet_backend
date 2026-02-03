@@ -26,7 +26,7 @@ class CreateBetBody(BaseModel):
     stake: float
 
 
-@router.post("/")
+@router.post("")
 def create_bet(body: CreateBetBody, db: Session = Depends(get_db)):
     """
     Create a new bet and return all bets for this user.

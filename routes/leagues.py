@@ -7,7 +7,7 @@ router = APIRouter(prefix="/leagues", tags=["Leagues"])
 BASE = Path("leagues")  # folder where leagues.json is stored
 
 
-@router.get("/")
+@router.get("")
 def get_leagues():
     """
     Return all saved leagues from leagues/leagues.json

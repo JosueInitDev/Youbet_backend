@@ -9,7 +9,7 @@ from cron.fetch_fixtures import run as fetch_fixtures
 from cron.fetch_lives import fetch_lives
 import asyncio
 
-app = FastAPI(title="Youbet Backend")
+app = FastAPI(title="Youbet Backend", redirect_slashes=False)
 
 Base.metadata.create_all(bind=engine) # Create DB tables
 
