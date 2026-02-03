@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Premier League",
+        "country": "England",
+        "country_logo": "",
+        "league_logo": "zNgMnejD-tEg3a2ot.png",
+        "color_primary": "#37003C",
+        "color_secondary": "#00FF85",
+        "league_key": "premier_league"
+    },
+    {
+        "name": "Ligue 1",
+        "country": "France",
+        "country_logo": "",
+        "league_logo": "tOAXV6hU-nXu2kajh.png",
+        "color_primary": "#09916f",
+        "color_secondary": "#000000",
+        "league_key": "ligue_1"
+    },
+    {
+        "name": "Bundesliga",
+        "country": "Germany",
+        "country_logo": "",
+        "league_logo": "fqltz6CO-xMv2DR4H.png",
+        "color_primary": "#b40f25",
+        "color_secondary": "#0E1E58",
+        "league_key": "bundesliga"
+    },
+    {
+        "name": "Serie A",
+        "country": "Italy",
+        "country_logo": "",
+        "league_logo": "rFHMayEO-Cvo35kgF.png",
+        "color_primary": "#0066B3",
+        "color_secondary": "#FEE123",
+        "league_key": "serie_a"
+    },
+    {
+        "name": "Eredivisie",
+        "country": "Netherland",
+        "country_logo": "",
+        "league_logo": "tUREAsfU-EqaQfykG.png",
+        "color_primary": "#1E3264",
+        "color_secondary": "#009DE0",
+        "league_key": "eredivisie"
+    },
+    {
+        "name": "La Liga",
+        "country": "Spain",
+        "country_logo": "",
+        "league_logo": "6aNYx0jD-8l1ALnqq.png",
+        "color_primary": "#EA364D",
+        "color_secondary": "#F9B200",
+        "league_key": "la_liga"
+    },
+    {
+        "name": "Euro",
+        "country": "Europe",
+        "country_logo": "",
+        "league_logo": "",
+        "color_primary": "#1b84ad",
+        "color_secondary": "#e0ca03",
+        "league_key": "euro"
+    },
+    {
+        "name": "Champions League",
+        "country": "Europe",
+        "country_logo": "",
+        "league_logo": "UPAwI68j-UB1D6nzi.png",
+        "color_primary": "#0E1E58",
+        "color_secondary": "#8A1538",
+        "league_key": "champions_league"
+    },
+    {
+        "name": "Europa League",
+        "country": "Europe",
+        "country_logo": "",
+        "league_logo": "",
+        "color_primary": "#FF7900",
+        "color_secondary": "#1E1E1E",
+        "league_key": "europa_league"
+    },
+    {
+        "name": "Conference League",
+        "country": "Europe",
+        "country_logo": "",
+        "league_logo": "6a9THkA7-fmGCnzrf.png",
+        "color_primary": "#00FF87",
+        "color_secondary": "#1E1E1E",
+        "league_key": "conference_league"
+    },
+    {
+        "name": "World Cup",
+        "country": "World",
+        "country_logo": "",
+        "league_logo": "Qi2gQakd-YqSwI8Pe.png",
+        "color_primary": "#8A1538",
+        "color_secondary": "#D8C9B6",
+        "league_key": "world_cup"
+    }
+]
