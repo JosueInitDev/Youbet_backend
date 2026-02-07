@@ -8,6 +8,7 @@ from routes import users, fixtures, lives, bets, leagues
 from cron.fetch_fixtures import run as fetch_fixtures
 from cron.fetch_lives import fetch_lives
 import asyncio
+from apscheduler.schedulers.background import BackgroundScheduler
 
 app = FastAPI(title="Youbet Backend", redirect_slashes=False)
 
@@ -20,6 +21,7 @@ app.include_router(bets.router)
 app.include_router(leagues.router)
 
 # --- Startup Event ---
+scheduler = BackgroundScheduler()
 @app.on_event("startup")
 async def startup_event():
     print("[STARTUP] Fetching fixtures and live matches once...")
@@ -36,3 +38,7 @@ async def startup_event():
         print(f"[ERROR] fetch_lives failed: {e}")
 
     print("[STARTUP] Done fetching initial data.")
+
+
+    scheduler.add_job(fetch_lives, "interval", minutes=1, id="job1")
+    scheduler.start()

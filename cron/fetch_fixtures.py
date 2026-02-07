@@ -9,7 +9,7 @@ load_dotenv()
 
 API_TOKEN = os.getenv("API_TOKEN")
 
-API_URL = "http://56.228.41.8/fixtures"
+API_URL = "https://api-thefootballapi.vetcho.org/fixtures"
 SAVE_DIR = Path("fixtures")
 
 SAVE_DIR.mkdir(exist_ok=True)
