@@ -18,6 +18,7 @@ if not API_TOKEN:
     raise RuntimeError("API_TOKEN missing from .env")
 
 def run():
+    print("---->Start fixtures fetching")
     leagues = [
         "premier_league",
         "ligue_1",
